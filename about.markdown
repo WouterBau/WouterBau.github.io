@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am an application developer with an open mind and many interests and experiences. I enjoy analysing, developing and providing guidance for all kinds of applications, be they desktop, web or mobile with a DevOps point of view in mind. I have experience with C#, VB, Javascript and SQL. Besides those, I also am interested in new languages and other technologies. Besides programming, I have experience with Windows Azure, Azure DevOps, UML and design patterns. I like to learn more and more with each project I work on.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Besides all that, I’m also an avid collector of video games and comics.
+I also enjoy watching horror movies and going to music concerts.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+# Certifications
+I've also achieved these certifications:
+- 2012/12: Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3.
+- 2019/11: Microsoft Certified: Azure Fundamentals
+- 2019/12: Microsoft Certified: Azure Developer Associate
