@@ -2,8 +2,10 @@
 layout: post
 title:  "404 pages in ASP.Net websites"
 date:   2013-11-11
+excerpt_separator: <!--excerpt-->
 ---
 Creating a 404 page for an ASP.Net website isn’t hard. But it depends on when you want it to be showed and how it should be showed. I’ll explain the quick and simple way.
+<!--excerpt-->
 
 You can either create a static ‘404.html’ or a dynamic ‘404.aspx’ page. Afterwards you’ll have to register this page as the error-page for the 404-code in the web.config file of your website. This can be done by adding the <CustomErrors> tag to <system.web>:
 

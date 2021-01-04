@@ -2,7 +2,11 @@
 layout: post
 title:  "Getting the current datetime in XQuery for Transact-SQL"
 date:   2014-04-20
+excerpt_separator: <!--excerpt-->
 ---
+I had to insert the current datetime in a piece of XML which was stored in a Transact-SQL xml datafield. But the XQuery in Transact-SQL doens’t support ‘fn:current-dateTime()’. So we had to devise another solution.
+<!--excerpt-->
+
 Transact-SQL has a very handy data type: xml. You can use this to store pieces of XML in your database. The database will force this XML to be valid. It’ll make it valid if there is no large issue found or it’ll throw an error:
 
 {% highlight xml %}

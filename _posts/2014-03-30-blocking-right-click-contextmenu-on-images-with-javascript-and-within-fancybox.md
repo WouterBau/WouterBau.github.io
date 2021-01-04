@@ -2,7 +2,11 @@
 layout: post
 title:  "Blocking right-click contextmenu on images with Javascript and within Fancybox"
 date:   2014-03-30
+excerpt_separator: <!--excerpt-->
 ---
+Blocking the right-click contextmenu isn’t advised nor user-friendly. But when the customer has expensive pictures, they want to make it hard to download them.
+<!--excerpt-->
+
 Great looking sites have great looking pictures, most of the times. But some clients invested a lot in creating those pictures and don’t want those pictures to be used by others for different purposes. I understand that, I do. But everything is public on the internet, you can’t go fully blocking access to anything. Unless you force visitors to log in and all such. But those systems aren’t fully safe neither. (Example: I could pull images of private student profiles after searching their unique identifier from an address book in the school’s online environment when I was still a student as well)
 
 So, the customer will sometimes ask you to block the possibility to right-click on an image so it can’t be saved as easily. You should then try to explain to the customer that it isn’t user-friendly. All visitors expect to be able to right-click anywhere they want within their screen. You should also explain that there is no sure way to make that work neither, because the right-click contextmenu is at clientside, so you do not have full control over it. The only way to block the right-click contextmenu on a site is with Javascript. So browsers with Javascript disabled will still be able to save images. And visitors will still be able to take a screenshot of the site to rip an image.

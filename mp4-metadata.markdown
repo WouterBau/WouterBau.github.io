@@ -7,6 +7,8 @@ permalink: /mp4-metadata/
 ![MP4 Metadata](/assets/images/mp4-metadata-logo.png "MP4 Metadata")
 
 # Introduction
+**This Windows 10 Application has been taken down from the store. There currently is no active development anymore for this application.**
+
 [MP4 Metadata](https://www.microsoft.com/store/apps/9NBLGGH68PJ6) is a Windows 10 app which you can use to update the textual metadata of your MP4 movies with information obtained from the [IMDb](http://www.imdb.com/) website. Select your desired MP4 file, search for the title, review the online data and update your local metatags. If your file already contains a title (and if possible, a year), it’ll be automatically used to search IMDb and to suggest a friendly rename of the file.
 
 # Currently supported metadata fields

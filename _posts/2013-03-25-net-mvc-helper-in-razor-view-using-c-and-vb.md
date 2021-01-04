@@ -2,7 +2,11 @@
 layout: post
 title:  ".Net MVC @helper in Razor view using C# and VB"
 date:   2013-03-25
+excerpt_separator: <!--excerpt-->
 ---
+Creating reusable pieces of HTML with dynamic data for .Net MVC Razor made quick and easy with helpers.
+<!--excerpt-->
+
 Since ASP.Net MVC3, the Razor View Engine has been introduced to generate the HTML views. When you have started making MVC applications, you’ve definitely used this already and are familiar with creating logic and accessing the @Model in .vbhtml or .cshtml files. But have you heard of @Helper to create reusable pieces of View?
 
 # Using helpers

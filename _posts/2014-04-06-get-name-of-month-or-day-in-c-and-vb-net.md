@@ -2,7 +2,11 @@
 layout: post
 title:  "Get name of month or day in C# and VB.Net"
 date:   2014-04-06
+excerpt_separator: <!--excerpt-->
 ---
+The DateTime class is very useful. But sometimes you just want to print out the name of the month or day you have the integer value of, without the hassle of creating a whole DateTime object.
+<!--excerpt-->
+
 The [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) structure in .Net is very useful and powerful for many purposes. It’s one of those basic classes you get in every programming language to be able to do whatever you need with dates. For example, print out a string of the current date in a certain format by the current culture standards:
 
 C#:
