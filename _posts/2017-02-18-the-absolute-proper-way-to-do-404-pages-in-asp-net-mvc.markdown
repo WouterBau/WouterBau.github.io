@@ -2,10 +2,9 @@
 layout: post
 title:  "The absolute proper way to do 404 pages in ASP.Net MVC"
 date:   2017-02-18
-excerpt_separator: <!--excerpt-->
+description: Websites and webservices should return the proper HTTP status codes as response to requests, along with the possible proper body. When you’re a using ASP.Net MVC web application it can be a little tricky because of a configuration quirk I quite dislike and didn’t find much info about. They improved this practice immensely in ASP.Net Core web applications. So, I want to make this post to clear it up and get it all in one nice explanation and solution.
 ---
 Websites and webservices should return the proper HTTP status codes as response to requests, along with the possible proper body. When you’re creating a ASP.Net MVC web application it can be a little tricky because of a configuration quirk I quite dislike and didn’t find much info about. They improved this practice immensely in ASP.Net Core web applications. So, I want to make this post to clear it up and get it all in one nice explanation and solution. This post is an improvement to my previous [post]({% link _posts/2013-11-11-404-pages-in-asp-net-websites.markdown %}) about 404 pages with classic aspx pages.
-<!--excerpt-->
 
 # ASP.NET Web Applications
 Let’s say we have a regular ASP.Net MVC project with a page that lists some items and has a detail page of an item. When users request a detail page of an item, we’ll check the id they provided. We’ll return a ‘404 Not Found’ when no item has the requested id. To make it user friendly, we provide a 404-page fitting in our layout view. We also want to show that 404-page when the visitor attempts to navigate to an URL that is not routed to an action.

@@ -2,11 +2,10 @@
 layout: post
 title:  "Custom 404 pages in ASP.NET Core for routes and static files"
 date:   2017-10-01
-excerpt_separator: <!--excerpt-->
+description: Back in February I wrote a post about how to deliver 404 pages while immediately dealing out the correct status message for ASP.NET applications. I gave a hint about ASP.NET Core and have improved my solution since. So, let’s call this post a follow-up in a trilogy of posts.
 ---
 
 Back in February I wrote a [post]({% link _posts/2017-02-18-the-absolute-proper-way-to-do-404-pages-in-asp-net-mvc.markdown %}) about how to deliver 404 pages while immediately dealing out the correct status message for ASP.NET applications. I gave a hint about ASP.NET Core and have improved my solution since. So, let’s call this post a follow-up in a trilogy of posts.
-<!--excerpt-->
 
 In that post I described the use of the ‘StatusCodePages’ middleware with re-executing to a different URL. It worked marvelously, but it caught every error possible. I don’t mind the standard message shown for all errors besides ‘Page not found’, since those aren’t hit that much and don’t always require friendly guidance. After some projects I wished to only capture the 404 error because I didn’t want to have logic for other possible statuses in my controller.
 

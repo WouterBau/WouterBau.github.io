@@ -2,11 +2,8 @@
 layout: post
 title:  "Calculate difference between two dates in C# and VB"
 date:   2013-03-21
-excerpt_separator: <!--excerpt-->
+description: Calculating the difference between dates couldn’t have been easier as in C# or VB. I’ll show you how in both languages and how to calculate the difference in years and months and more.
 ---
-Calculating the difference between dates couldn’t have been easier as in C# or VB. I’ll show you how in both languages and how to calculate the difference in years and months and more.
-<!--excerpt-->
-
 In at least one of your projects, you’ll have to calculate the difference between the two dates. And if you enjoyed programming in C# or VB already, you’ll enjoy even more what tools they have provided to do so.
 
 Calculating the difference between dates in C#:

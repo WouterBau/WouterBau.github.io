@@ -2,11 +2,8 @@
 layout: post
 title:  "Serving other content in ASP.Net Response"
 date:   2016-06-06
-excerpt_separator: <!--excerpt-->
+description: You want to generate a file or serve a document other than HTML out of ASP.Net and want to give it all the correct headers and filename in the response? It requires only a few lines to get it done.
 ---
-You want to generate a file or serve a document other than HTML out of ASP.Net and want to give it all the correct headers and filename in the response? It requires only a few lines to get it done.
-<!--excerpt-->
-
 It’s not always HTML you’d want to serve to the visitor when they open an URL. In certain occasion the URL can be a link to a dynamically generated PDF file (like an receipt for an online order) or another file. To ensure the client opens or downloads this file correctly, you have to set the contenttype and headers for the response. Of course you need to stream the content to the response too.  When you get your content in a binary array, you can achieve your wish with these few lines.
 
 {% highlight cs %}
