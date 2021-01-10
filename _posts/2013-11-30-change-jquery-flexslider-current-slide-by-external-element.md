@@ -3,6 +3,10 @@ layout: post
 title:  "Change JQuery Flexslider current slide by external element"
 date:   2013-11-30
 description: Two alternatives to changing the current slide of a JQuery Flexslider from a HTML element outside of the slider.
+tags:
+ - FlexSlider
+ - JQuery
+ - Javascript
 ---
 The JQuery [Flexslider](http://www.woothemes.com/flexslider/) is a very handy Javascript plugin to create sliders of various form of slides. By creating a simple list and performing the appropriate short piece of code, you have an easy and swipe-enabled slider out of the box (After adding the piece of code from the Flexslider website):
 

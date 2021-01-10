@@ -3,6 +3,10 @@ layout: post
 title:  "Blocking right-click contextmenu on images with Javascript and within Fancybox"
 date:   2014-03-30
 description: Blocking the right-click contextmenu isn’t advised nor user-friendly. But when the customer has expensive pictures, they want to make it hard to download them.
+tags:
+ - Fancybox
+ - JQuery
+ - Javascript
 ---
 Great looking sites have great looking pictures, most of the times. But some clients invested a lot in creating those pictures and don’t want those pictures to be used by others for different purposes. I understand that, I do. But everything is public on the internet, you can’t go fully blocking access to anything. Unless you force visitors to log in and all such. But those systems aren’t fully safe neither. (Example: I could pull images of private student profiles after searching their unique identifier from an address book in the school’s online environment when I was still a student as well)
 

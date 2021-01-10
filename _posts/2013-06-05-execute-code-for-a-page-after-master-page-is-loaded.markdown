@@ -3,6 +3,10 @@ layout: post
 title:  "Execute code for a page after Master Page is loaded"
 date:   2013-06-05
 description: Sometimes you’d like to edit a public property or call a function of a Master Page from the currently requested page.
+tags:
+ - ASP.NET
+ - VB
+ - C#
 ---
 The ASP.Net Master Page is very useful for many websites. Here you can define components of your website that will be shown on all pages using that particular Master Page. Examples of these kind of components are ‘Footers’, ‘Headers’, ‘Navigation’, …
 
