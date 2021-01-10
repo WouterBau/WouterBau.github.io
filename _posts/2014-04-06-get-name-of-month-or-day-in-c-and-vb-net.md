@@ -6,6 +6,7 @@ description: The DateTime class is very useful. But sometimes you just want to p
 tags:
  - VB
  - C#
+share: true
 ---
 The [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) structure in .Net is very useful and powerful for many purposes. It’s one of those basic classes you get in every programming language to be able to do whatever you need with dates. For example, print out a string of the current date in a certain format by the current culture standards:
 

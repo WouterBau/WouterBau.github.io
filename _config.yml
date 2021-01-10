@@ -17,9 +17,9 @@ copyright:
 share:
   facebook: true
   twitter: true
-  gplus: true
+  gplus: false
   linkedin: true
-  pinterest: true
+  pinterest: false
   email: true
 
 social:

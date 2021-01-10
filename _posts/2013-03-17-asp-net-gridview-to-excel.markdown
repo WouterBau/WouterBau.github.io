@@ -7,6 +7,7 @@ tags:
  - ASP.NET
  - Excel
  - C#
+share: true
 ---
 Gridviews are mostly used to give the user a good view of data in a list, like a list of orders or reservations. For advanced web-applications, these users like to export these grids of data to an Excel-file, which they can work, filter and select more easily from to use the data for calculations. This is easy to do by sending the content from the table as a ms-excel content-type in the Response of a postback:
 

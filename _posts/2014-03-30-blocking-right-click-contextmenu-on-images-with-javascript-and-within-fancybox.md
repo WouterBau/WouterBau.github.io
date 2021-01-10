@@ -7,6 +7,7 @@ tags:
  - Fancybox
  - JQuery
  - Javascript
+share: true
 ---
 Great looking sites have great looking pictures, most of the times. But some clients invested a lot in creating those pictures and don’t want those pictures to be used by others for different purposes. I understand that, I do. But everything is public on the internet, you can’t go fully blocking access to anything. Unless you force visitors to log in and all such. But those systems aren’t fully safe neither. (Example: I could pull images of private student profiles after searching their unique identifier from an address book in the school’s online environment when I was still a student as well)
 

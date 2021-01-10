@@ -6,6 +6,7 @@ description: I had to insert the current datetime in a piece of XML which was st
 tags:
  - Transact-SQL
  - XQuery
+share: true
 ---
 Transact-SQL has a very handy data type: xml. You can use this to store pieces of XML in your database. The database will force this XML to be valid. It’ll make it valid if there is no large issue found or it’ll throw an error:
 

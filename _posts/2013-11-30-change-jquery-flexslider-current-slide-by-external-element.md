@@ -7,6 +7,7 @@ tags:
  - FlexSlider
  - JQuery
  - Javascript
+share: true
 ---
 The JQuery [Flexslider](http://www.woothemes.com/flexslider/) is a very handy Javascript plugin to create sliders of various form of slides. By creating a simple list and performing the appropriate short piece of code, you have an easy and swipe-enabled slider out of the box (After adding the piece of code from the Flexslider website):
 

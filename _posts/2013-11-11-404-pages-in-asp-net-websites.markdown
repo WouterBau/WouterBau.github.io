@@ -7,6 +7,7 @@ tags:
  - ASP.NET
  - VB
  - C#
+share: true
 ---
 You can either create a static ‘404.html’ or a dynamic ‘404.aspx’ page. Afterwards you’ll have to register this page as the error-page for the 404-code in the web.config file of your website. This can be done by adding the <CustomErrors> tag to <system.web>:
 

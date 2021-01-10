@@ -7,6 +7,7 @@ tags:
  - ASP.NET MVC
  - VB
  - C#
+share: true
 ---
 Since ASP.Net MVC3, the Razor View Engine has been introduced to generate the HTML views. When you have started making MVC applications, you’ve definitely used this already and are familiar with creating logic and accessing the @Model in .vbhtml or .cshtml files. But have you heard of @Helper to create reusable pieces of View?
 
