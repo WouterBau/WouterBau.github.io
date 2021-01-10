@@ -16,6 +16,8 @@ The requested page’s ‘Page_Load’ function is always called first. After th
 
 So how do we interact with the Master Page after it has completed it’s ‘Page_Load’, but when nothing is triggered (like a button)? There are other functions that are performed by the page after the controls have been loaded. The functions to be used best are ‘OnLoadComplete’ and ‘OnPreRender’. I prefer to keep these things in ‘OnLoadComplete’. So you can add your ‘after load’-logic to this function for it to be performed when the Master Page is loaded.
 
+>C#
+{:.filename}
 {% highlight csharp %}
 protected override void OnLoadComplete(EventArgs e)
 {
@@ -31,6 +33,8 @@ protected override void OnPreRender(EventArgs e)
 }
 {% endhighlight %}
 
+>VB
+{:.filename}
 {% highlight vb %}
 Protected Overrides Sub OnLoadComplete(e As EventArgs)
     CType(Page.Master, Master).GenerateSocialMetaTags()

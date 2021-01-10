@@ -9,8 +9,8 @@ tags:
 ---
 In at least one of your projects, you’ll have to calculate the difference between the two dates. And if you enjoyed programming in C# or VB already, you’ll enjoy even more what tools they have provided to do so.
 
-Calculating the difference between dates in C#:
-
+>C#
+{:.filename}
 {% highlight csharp %}
 DateTime dt1 = DateTime.Now;
 DateTime dt2 = new DateTime(2013, 3, 16);
@@ -31,8 +31,8 @@ Console.WriteLine("Milliseconds: " + dtspan.Milliseconds);
 Console.WriteLine("Total Days: " + dtspan.TotalDays);
 {% endhighlight %}
 
-Calculating the difference between dates in VB:
-
+>VB
+{:.filename}
 {% highlight vb %}
 Dim dt1 As DateTime = DateTime.Now
 Dim dt2 As DateTime = New DateTime(2013, 3, 16)
@@ -55,6 +55,8 @@ Console.WriteLine("Total Days: " & dtspan.TotalDays)
 
 So both languages work the same way with the TimeSpan object. But what you notice is the lack of calculating the difference in, for example, years or months. There is no standard solution for this in C#. But VB (And SQL) however has the ‘DateDiff‘ function which allows to calculate the difference in more ways than the above examples:
 
+>VB
+{:.filename}
 {% highlight vb %}
 Dim dt1 As DateTime = DateTime.Now
 Dim dt2 As DateTime = New DateTime(2013, 3, 16)
@@ -76,6 +78,8 @@ This looks quite nice. But I’ll still suggest trying to use the TimeSpan objec
 
 If you still want to use the ‘DateDiff’ function in C#, you can always reference the Microsoft.VisualBasic dll in your project and use the function from it. Or you can use the ‘DateDiff’ functions used by Linq when generating SQL-queries. These generate the same results as the VB ‘DateDiff’ functions, but offers other formats:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 DateTime dt1 = DateTime.Now;
 DateTime dt2 = new DateTime(2013, 3, 16);

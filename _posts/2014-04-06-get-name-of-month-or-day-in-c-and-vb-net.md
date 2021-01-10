@@ -9,15 +9,15 @@ tags:
 ---
 The [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) structure in .Net is very useful and powerful for many purposes. It’s one of those basic classes you get in every programming language to be able to do whatever you need with dates. For example, print out a string of the current date in a certain format by the current culture standards:
 
-C#:
-
+>C#
+{:.filename}
 {% highlight csharp %}
 Console.WriteLine(DateTime.Today.ToString("dd MMMM yyyy"));
  //Writes '06 april 2014' in nl-BE culture
 {% endhighlight %}
 
-VB:
-
+>VB
+{:.filename}
 {% highlight vb %}
 Console.WriteLine(DateTime.Today.ToString("dd MMMM yyyy"))
 'Returns the same as the C# code, so it's practically the same
@@ -27,6 +27,8 @@ The whole list of format options has been summed up at the ‘[Custom Date and T
 
 But sometimes you only have need for the name of the month or the day in the current culture and you have the integer value for these. You can create a whole DateTime object which situates in the given month. But I dislike doing that step because I don’t need it. I don’t require to have the rest of the date properties nor do I need to do calculations. It’s overhead in my eyes. After a bit of searching, I came to these alternatives:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 Console.WriteLine(CultureInfo.CurrentCulture.DateTimeFormat.GetMonth(4));
 //Return 'april', the name of the month in the current culture
@@ -43,6 +45,8 @@ This works exactly the same in VB.Net as well. ‘CultureInfo.CurrentCulture.Dat
 
 In VB.Net you also have the [MonthName](http://msdn.microsoft.com/en-us/library/zxbsw165(v=vs.90).aspx) and [WeekdayName](http://msdn.microsoft.com/en-us/library/t8dc1aee(v=vs.90).aspx) global functions, which do exactly the same as above. But even a lot shorter:
 
+>VB
+{:.filename}
 {% highlight vb %}
 Console.WriteLine(MonthName(4))
 'Writes "april"

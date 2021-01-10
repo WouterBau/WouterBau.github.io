@@ -15,6 +15,8 @@ Sometimes there will be bits of html or strings that would return in different p
 
 A helper can easily be defined and used within your view like so:
 
+>Razor
+{:.filename}
 {% highlight razor %}
 @helper GiveAName(string text){
 	if(String.IsNullOrWhitespace(text)){
@@ -39,6 +41,8 @@ To do this, you’ll have to create a .cshtml (or .vbhtml) file in the “App_Co
 
 You then just simple write the helper as you did in the regular view:
 
+>C#
+{:.filename}
 {% highlight cs %}
 @helper GiveAName(string text)
 {
@@ -67,6 +71,8 @@ You then just simple write the helper as you did in the regular view:
 
 Or when you are using VB.Net:
 
+>VB
+{:.filename}
 {% highlight vb %}
 @helper GiveAName(ByVal text As String)
      @If String.IsNullOrWhitespace(text) Then
@@ -89,6 +95,8 @@ As you can see, VB.Net requires the ‘@’ symbols much more than the C# versio
 
 The helpers you have created will be available in the ‘Helpers’-class (depends on how you named the file) after compilation. Visual Studio will also provide you with intellisense when creating a call to the requested helper.
 
+>Razor
+{:.filename}
 {% highlight razor %}
 @Helpers.GiveAName("Has a Name")
 <p class="@Helpers.GetClassName("Classname")">First example having a name</p>
@@ -99,6 +107,8 @@ The helpers you have created will be available in the ‘Helpers’-class (depen
 # Calling a helper within logic in a view
 You can also use helpers within your codeblocks in a Razor View .cshtml file. It’s as easy as using them within the html tags of the view. But be warned! The helpers return an object of the HelperResult class! So if you want to use these in code, don’t forget to call a .ToString() function on them to get the raw HTML out of it.
 
+>Razor
+{:.filename}
 {% highlight razor %}
 @if(Helpers.GetClassName(Model.Title).ToString().Equals("DefaultClass")){
      <p>Only shows when default class name is returned</p>

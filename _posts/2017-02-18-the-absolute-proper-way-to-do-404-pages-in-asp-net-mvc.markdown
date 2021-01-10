@@ -15,6 +15,8 @@ Let’s say we have a regular ASP.Net MVC project with a page that lists some it
 
 This could be the controller containing all actions of the application (Note the change of status code in NotFound):
 
+>C#
+{:.filename}
 {% highlight csharp %}
 public class HomeController : Controller
 {
@@ -50,6 +52,8 @@ public class HomeController : Controller
 
 The web.config would contain this snippet to configure the redirection of the result to that of the NotFound action:
 
+>web.config
+{:.filename}
 {% highlight xml %}
 <system.web>
   <customErrors mode="On">
@@ -72,6 +76,8 @@ This seems correct, but let’s test this and see what HTTP status codes we rece
 
 That ‘302 Found’ fits wrong there. Some clients might figure out the next page is a 404, but it isn’t supposed to happen to my feeling. The HttpNotFound() result on a nonexistent id got captured by the webserver who executed the given URL and returned its response. The unknown route however is caught by ASP.Net and it just redirects on a custom error by default, hence the 302. So, we change the custom errors to rewrite instead:
 
+>web.config
+{:.filename}
 {% highlight xml %}
 <customErrors mode="On" redirectMode="ResponseRewrite">
     <error statusCode="404" redirect="/404" />
@@ -84,6 +90,8 @@ The result is even worse:
 
 A ‘500 Internal Server Error’ happened! But why? Because customErrors uses [Server.Transfer](https://msdn.microsoft.com/en-us/library/y4k58xk7(v=vs.110).aspx) to pass on the information to the page it rewrites to and Server.Transfer only accepts paths to real existing files. So, it can’t resolve routes and goes into exception. How do we fix this? We give it a path to an actual aspx file:
 
+>web.config
+{:.filename}
 {% highlight xml %}
 <customErrors mode="On" redirectMode="ResponseRewrite">
     <error statusCode="404" redirect="/404.aspx" />
@@ -92,6 +100,8 @@ A ‘500 Internal Server Error’ happened! But why? Because customErrors uses [
 
 In that aspx file, we transfer the request to the correct URL with [Server.TransferRequest](https://msdn.microsoft.com/en-us/library/aa344902(v=vs.110).aspx):
 
+>ASP
+{:.filename}
 {% highlight csharp %}
 <%@ Page Language="C#" AutoEventWireup="true" %>
 
@@ -107,6 +117,8 @@ When we navigate to the non-existing route now, we immediately get the result we
 
 Now .Net Core has come along and made things a whole lot simpler in ASP.Net Core Web Applications. We can use almost the same controller for this example:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 public class HomeController : Controller
 {
@@ -140,6 +152,8 @@ public class HomeController : Controller
 
 To complete things, we just add one piece of middleware to our pipeline in StartUp.cs which will execute the request again to another URL when the response has another status code while maintaining that status code:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 app.UseStatusCodePagesWithReExecute("/home/statuspage/{0}");
 {% endhighlight %}

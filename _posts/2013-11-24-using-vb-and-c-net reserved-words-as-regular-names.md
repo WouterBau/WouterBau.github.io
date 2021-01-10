@@ -9,8 +9,8 @@ tags:
 ---
 I don’t advise to use this unless you really have to. When using .Net reserved words for other purposes, it can become confusing for you or your collaborators. So use this only when it’s necessary or if it might actually help. I’ve come across a good example of the second option while creating an enumeration.
 
-VB.Net:
-
+>VB
+{:.filename}
 {% highlight vb %}
 Public Enum LogSeverity
      Info = 0
@@ -19,8 +19,8 @@ Public Enum LogSeverity
 End Enum
 {% endhighlight %}
 
-C#.Net:
-
+>C#
+{:.filename}
 {% highlight cs %}
 public enum LogSeverity
 {

@@ -10,6 +10,8 @@ tags:
 ---
 Gridviews are mostly used to give the user a good view of data in a list, like a list of orders or reservations. For advanced web-applications, these users like to export these grids of data to an Excel-file, which they can work, filter and select more easily from to use the data for calculations. This is easy to do by sending the content from the table as a ms-excel content-type in the Response of a postback:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 protected void BtnExportToExcel(Object sender, EventArgs e)
 {
@@ -50,6 +52,8 @@ protected void BtnExportToExcel(Object sender, EventArgs e)
 
 You’ll do have to change the page directive of that certain page that is returning the data, so it won’t render the “RegisterEventValidation can only be called during Render()” exception. Add ‘EnableEventValidation=”false”‘:
 
+>ASP
+{:.filename}
 {% highlight csharp %}
 <%@ Page Title="" Language="vb" AutoEventWireup="false"
          MasterPageFile="~/Master.Master" CodeBehind="Demo.aspx.vb"
@@ -60,6 +64,8 @@ This will all work without any problems most of the time. But when you allow the
 
 There certainly is a way to fix this! But it involves creating a regular HTML table, and populating that table with the rows of the GridView. The GridView rows will first be checked for any other controls within them, to be sure no other code-blocks can interfere. Best is to create a function for this, so you can reuse this at any time:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 public static Table ConvertGridToTable(GridView datagrid)
 {
@@ -135,6 +141,8 @@ private static void ReplaceControls(Control control)
 
 The code to export our Gridview to Excel from codebehind will then become this:
 
+>C#
+{:.filename}
 {% highlight csharp %}
 protected void BtnExportToExcel(Object sender, EventArgs e)
 {

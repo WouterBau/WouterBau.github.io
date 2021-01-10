@@ -9,6 +9,8 @@ tags:
 ---
 Transact-SQL has a very handy data type: xml. You can use this to store pieces of XML in your database. The database will force this XML to be valid. It’ll make it valid if there is no large issue found or it’ll throw an error:
 
+>XML
+{:.filename}
 {% highlight xml %}
 <Test></Test>
 <!-- Will automatically change into -->
@@ -20,6 +22,8 @@ Transact-SQL has a very handy data type: xml. You can use this to store pieces o
 
 You can also perform XQuery statements on xml-fields of a record from your SQL-query. So you can also query into the XML from your query:
 
+>SQL
+{:.filename}
 {% highlight sql %}
 -- Return the text-node value of the test-node as a varchar(20) for each record
 SELECT XmlField.value('(/test/text())[1]', 'varchar(20)') AS Test
@@ -28,6 +32,8 @@ FROM XMLTestTable
 
 And recently I had to be able to alter the xml in a record with the current datetime. I had to insert a cancel-date in an empty node that could also not exist yet. I had to refresh my XQuery for starters, but then I didn’t find a direct solution for this. Regular XQuery can use the XPath function ‘[fn:current-dateTime()](http://www.w3.org/TR/xpath-functions/#func-current-dateTime)‘, which will return the current datetime as I required. But T-SQL doens’t support this function… So I cooked up this solution by creating a T-SQL variable and using that variable as text in the XQuery statement.
 
+>SQL
+{:.filename}
 {% highlight sql %}
 -- Declare the variable which will contain the datetime and fill it
 DECLARE @DateString varchar(25)
