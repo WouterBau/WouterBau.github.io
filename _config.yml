@@ -2,7 +2,7 @@
 
 name: Wouter Bauchart
 title: Wouter Bauchart
-description: Cloud solutions
+description: All-Round Cloud Developing
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://bauchart.be
@@ -45,7 +45,7 @@ comments: false
 permalink: /:year/:month/:day/:title/
 
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
-paginate: 5
+# paginate: 5
 
 #highlighter: rouge
 
