@@ -16,6 +16,12 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:image" content="{{ site.url }}/assets/images/share-logo.png" />
 
+    <meta name="og:url" content="{{ site.url }}{{ page.url | relative_url }}" />
+    <meta name="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+    <meta name="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}" />
+    <meta name="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="og:image" content="{{ site.url }}/assets/images/share-logo.png" />
+
     <meta name="theme-color" content="#222222"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
