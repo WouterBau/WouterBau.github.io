@@ -54,4 +54,4 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
 
-exclude: ['README.md', 'LICENSE']
+exclude: ['README.md', 'LICENSE', 'CNAME', 'favicon.xcf', 'share-logo.xcf', 'Gemfile', 'Gemfile.lock', 'jekyll-clean-dark.gemspec']
