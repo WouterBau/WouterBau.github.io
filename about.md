@@ -10,8 +10,11 @@ Besides all that, I’m also an avid collector of video games and comics.
 I also enjoy watching horror movies and going to music concerts.
 
 # Certifications
-I've also achieved these [certifications](https://www.youracclaim.com/users/wouter-bauchart/badges):
+I've also achieved these [certifications](https://www.youracclaim.com/users/wouter-bauchart/badges){:target="_blank"}:
 - 2012/12: Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3.
 - 2019/11: Microsoft Certified: Azure Fundamentals
 - 2019/12: Microsoft Certified: Azure Developer Associate
 - 2021/01: Microsoft Certified: Azure Administrator Associate
+- 2021/03: Microsoft Certified: Azure Security Engineer Associate
+- 2021/04: OutSystems: Associate Reactive Developer (OutSystems 11)
+- 2021/06: Microsoft Certified: Azure Data Scientist Associate
