@@ -15,20 +15,20 @@ It's been some time since I noticed the fancy looking terminals being used by pr
 First things first, I figured it out using other blogs and the websites of the modules. I don't remember all of them, but let's show them some love:
 
 - Ligatures:
-    - https://www.nerdfonts.com/
-    - https://worldofzero.com/posts/enable-font-ligatures-vscode/
+    - [NerdFonts](https://www.nerdfonts.com/){:target="_blank"}
+    - [https://worldofzero.com/posts/enable-font-ligatures-vscode/](https://worldofzero.com/posts/enable-font-ligatures-vscode/){:target="_blank"}
 - Terminal:
-    - https://github.com/JanDeDobbeleer/oh-my-posh
-    - https://github.com/devblackops/Terminal-Icons
+    - [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh){:target="_blank"}
+    - [Terminal Icons](https://github.com/devblackops/Terminal-Icons){:target="_blank"}
 - Everything:
-    - https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons
-    - https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0
-    - https://dev.to/kasuken/cascadia-code-a-new-font-for-visual-studio-code-and-terminal-47oc
+    - [Hanselman](https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons){:target="_blank"}
+    - [https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0](https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0){:target="_blank"}
+    - [https://dev.to/kasuken/cascadia-code-a-new-font-for-visual-studio-code-and-terminal-47oc](https://dev.to/kasuken/cascadia-code-a-new-font-for-visual-studio-code-and-terminal-47oc){:target="_blank"}
 
 # Install CascadiaCode NerdFont
 To get started with anything, we need to install a NerdFont which supports ligatures, and which is supported by oh-my-posh. I didn't want to deviate too far from the standards. So I picked up the "CascadiaCode" version.
 
-- Go to the Nerd Fonts website download page: https://www.nerdfonts.com/font-downloads
+- Go to the Nerd Fonts website download page: [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads){:target="_blank"}
 - Search for "CascadiaCode" and download the latest one available. (Currently this was Caskaydia Cove Nerd Font)
 - Install the font as you would any other font on your device
 
@@ -68,7 +68,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 {% highlight powershell %}
 code $PROFILE
 {% endhighlight %}
-- Alter the Profile script to include these steps at start-up to start the modules and set a theme. Look up what theme you like on https://ohmyposh.dev/docs/themes.:  
+- Alter the Profile script to include these steps at start-up to start the modules and set a theme. Look up what theme you like on [https://ohmyposh.dev/docs/themes](https://ohmyposh.dev/docs/themes){:target="_blank"}:  
 {% highlight powershell %}
 Import-Module oh-my-posh
 Import-Module -Name Terminal-Icons
@@ -78,4 +78,4 @@ Set-PoshPrompt -Theme pixelrobots
 
 # Postscript
 And after writing this quickstart, I find a recent docs article from Microsft describing how to do all this too. That's what you get when you keep a large backlog of things you want to write about!  
-Enjoy and use this too if you get stuck: https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
+Enjoy and use this too if you get stuck: [https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup](https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup){:target="_blank"}
