@@ -15,7 +15,7 @@ It's been some time since I noticed the fancy looking terminals being used by pr
 First things first, I figured it out using other blogs and the websites of the modules. I don't remember all of them, but let's show them some love:
 
 - Ligatures:
-    - [NerdFonts](https://www.nerdfonts.com/){:target="_blank"}
+    - [Nerd Fonts](https://www.nerdfonts.com/){:target="_blank"}
     - [https://worldofzero.com/posts/enable-font-ligatures-vscode/](https://worldofzero.com/posts/enable-font-ligatures-vscode/){:target="_blank"}
 - Terminal:
     - [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh){:target="_blank"}
@@ -26,7 +26,7 @@ First things first, I figured it out using other blogs and the websites of the m
     - [https://dev.to/kasuken/cascadia-code-a-new-font-for-visual-studio-code-and-terminal-47oc](https://dev.to/kasuken/cascadia-code-a-new-font-for-visual-studio-code-and-terminal-47oc){:target="_blank"}
 
 # Install CascadiaCode NerdFont
-To get started with anything, we need to install a NerdFont which supports ligatures, and which is supported by oh-my-posh. I didn't want to deviate too far from the standards. So I picked up the "CascadiaCode" version.
+To get started with anything, we need to install a Nerd Font which supports ligatures, and which is supported by oh-my-posh. I didn't want to deviate too far from the standards. So I picked up the "CascadiaCode" version.
 
 - Go to the Nerd Fonts website download page: [https://www.nerdfonts.com/font-downloads](https://www.nerdfonts.com/font-downloads){:target="_blank"}
 - Search for "CascadiaCode" and download the latest one available. (Currently this was Caskaydia Cove Nerd Font)
@@ -38,7 +38,7 @@ Do be sure to enable these, because they will start to override some default beh
 ## Visual Studio
 - Open "Options"
 - Open the "Fonts and Colors" tab
-- Select "Cascadia Code" as your font for the text editor
+- Select "Cascadia Code" as your font for the text editor (Ligatures are supported out of the box)
 
 ## Visual Studio Code
 - Open "Settings" and/or open "settings.json"
