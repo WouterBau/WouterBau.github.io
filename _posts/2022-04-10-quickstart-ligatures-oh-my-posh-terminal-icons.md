@@ -33,7 +33,7 @@ To get started with anything, we need to install a Nerd Font which supports liga
 - Install the font as you would any other font on your device
 
 # Enable Ligatures in Editors
-Do be sure to enable these, because they will start to override some default behaviors and views of characters. I like the sight of it, but it could be confusing for others.
+Do be sure to know what you're doing when enabling these, because they will start to override some default behaviors and views of characters. I like the sight of it, but it could be confusing for others.
 
 ## Visual Studio
 - Open "Options"
