@@ -16,6 +16,7 @@ But if you start from an existing one, you can use Azure Logic Apps to offload y
 
 # Presentations
 I've given a presentation about this topic during a livestreamed MeetUp event! You can rewatch it on demand on YouTube: [https://www.youtube.com/watch?v=QRb0aP9qVXg](https://www.youtube.com/watch?v=QRb0aP9qVXg){:target="_blank"}.
+
 You can find the code examples on this GitHub Repository: [https://github.com/WouterBau/monolith-2-logic-apps](https://github.com/WouterBau/monolith-2-logic-apps){:target="_blank"}.
 
 I'm also very proud to say I was given the opportunity to give a shorter version of it at [Techorama](https://techorama.be/){:target="_blank"}, a yearly international technology conference! A small dream that came to completion! And I hope to see you at the future ones as well.
