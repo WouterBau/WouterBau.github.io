@@ -1,0 +1,32 @@
+name: 'OWASP Baseline Scan'
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  baseline-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: OWASP ZAP Baseline Scan
+        # You may pin to the exact commit or the version.
+        # uses: zaproxy/action-baseline@1a33faea4d2caa248054dc306a56525eedd3bbea
+        uses: zaproxy/action-baseline@v0.8.2
+        with:
+          # GitHub Token to create issues in the repository
+          #token: # optional, default is ${{ github.token }}
+          # Target URL
+          target: https://bauchart.be/
+          # Relative path of the ZAP configuration file
+          #rules_file_name: # optional
+          # The Docker file to be executed
+          #docker_name: # default is owasp/zap2docker-stable
+          # Additional command line options
+          #cmd_options: # optional
+          # The title for the GitHub issue to be created
+          #issue_title: # optional, default is ZAP Scan Baseline Report
+          # The action status will be set to fail if ZAP identifies any alerts during the baseline scan
+          #fail_action: # optional
+          # The action will file the report to the GitHub issue using the issue_title input
+          #allow_issue_writing: # optional, default is true
+          # The name of the artifact that contains the ZAP reports
+          #artifact_name: # optional, default is zap_scan
