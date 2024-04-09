@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Update an old self-installed Oh My Posh version to a version fro; the Windows store and get it working"
+title:  "Update an old self-installed Oh My Posh version to a version from the Windows store and get it working"
 date:   2024-04-09
 description: I had a way old self installed version from Oh My Posh, and I wanted to update it to the Windows Store version. Here's how I did it.
 tags:
@@ -45,7 +45,7 @@ Import-Module -Name Terminal-Icons
 Set-PoshPrompt -Theme pixelrobots
 {% endhighlight %}
 
-## New Version $PROFILE
+# New Version $PROFILE
 {% highlight powershell %}
 oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/clean-detailed.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
