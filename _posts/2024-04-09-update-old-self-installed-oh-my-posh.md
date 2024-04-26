@@ -47,6 +47,6 @@ Set-PoshPrompt -Theme pixelrobots
 
 # New Version $PROFILE
 {% highlight powershell %}
-oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/clean-detailed.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/lambdageneration.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 {% endhighlight %}
