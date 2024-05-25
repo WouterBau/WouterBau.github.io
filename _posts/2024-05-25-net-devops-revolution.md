@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ".NET DevOps Revolution : Flexibility and Quality Control with Docker's Adaptive Arsenal - Techorama 2024"
-date:   2024-05-22
+date:   2024-05-25
 description: Let's see how we can bring flexibility, stability and control to our DevOps pipelines by using Docker to containerize our build and quality tasks.
 tags:
  - Techorama
@@ -13,7 +13,7 @@ share: true
 
 This post accompanies my latest titular presentation and lighting talk I gave at [Techorama](https://techorama.be/){:target="_blank"} 2024. I will be sharing the [slides]("/assets/media/.NET DevOps Revolution with Docker.pdf"){:target="_blank"} I used during the talk as well.
 
-The examples are all based on my sand box project [ShadoRoller](https://github.com/WouterBau/ShadowRoller){:target="_blank"}. I've made a copy of the repo to keep it at this state. The links to this repo are in the slides.
+The examples are all based on my sand box project [ShadoRoller](https://github.com/WouterBau/ShadowRoller){:target="_blank"}. I've made a [copy](https://github.com/WouterBau/ShadowRoller-NET-DevOps-Revolution-Docker){:target="_blank"} of the repo to keep it at this state. The links to this repo are in the slides.
 
 I advice to scroll through the slide deck and check back here for more information!
 
@@ -67,3 +67,15 @@ We create an Azure DevOps Pipeline in YAML to build and run the docker images fr
     - Publish the reports to the Azure DevOps Pipeline for clear visibility
 
 This way we were able to use the strengths of all platforms and possibilities!
+
+# Where to go next?
+## Publish hybrid / desktop apps
+The same setup can also be used to have a consistent way of publishing apps that are not optimal to run in a container. You can perform the command to publish the app as an entry point in the Dockerfile. Then you can also access the generated files through a volume binding on the host machine and bring them where necessary.
+
+## How to handle NuGet packages
+Publishing of NuGet packages in this kind of setup can be done by executing the pack command in the DockerFile. You can add the push to the NuGet source in the DockerFile or let it be performed by the host machine with binaries received from the dockerized publishing and packing. This depends on the authentication and connection requirements of your NuGet source.
+
+## Moving to another CI/CD platform
+Moving to another CI/CD platform should now only consist of making the necessary automation pipelines to trigger the same commands to build and run the expected stages of the Docker setup. These pipelines then perform the platform specific actions to have the integrated dashboarding. The runner hosts being used by this platform just needs to support containers to build and run.
+
+![Techorama Calendar](/assets/images/techorama-calendar-2024.png "Techorama Calendar")
