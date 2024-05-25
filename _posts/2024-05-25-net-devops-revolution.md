@@ -12,7 +12,7 @@ tags:
 share: true
 ---
 
-This post accompanies my latest titular presentation and lighting talk I gave at [Techorama](https://techorama.be/){:target="_blank"} 2024. I will be sharing the [slides]("/assets/media/.NET DevOps Revolution with Docker.pdf"){:target="_blank"} I used during the talk as well.
+This post accompanies my latest titular presentation and lighting talk I gave at [Techorama](https://techorama.be/){:target="_blank"} 2024. I will be sharing the [slides](/assets/media/NET DevOps Revolution with Docker.pdf){:target="_blank"} I used during the talk as well.
 
 The examples are all based on my sand box project [ShadoRoller](https://github.com/WouterBau/ShadowRoller){:target="_blank"}. I've made a [copy](https://github.com/WouterBau/ShadowRoller-NET-DevOps-Revolution-Docker){:target="_blank"} of the repo to keep it at this state. The links to this repo are in the slides.
 
