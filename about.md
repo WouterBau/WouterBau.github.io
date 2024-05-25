@@ -14,7 +14,7 @@ I've also achieved these [certifications](https://www.linkedin.com/in/wouter-bau
 - 2023/10: freeCodeCamp: Foundational C# with Microsoft
 - 2023/09: Microsoft Certified: Azure Cosmos DB Developer Specialty
 - 2023/02: Microsoft Certified: DevOps Engineer Expert
-- 20222/12: Red Cross Flanders: First Aid and Helper
+- 2022/12: Red Cross Flanders: First Aid and Helper
 - 2022/06: Microsoft Certified: Azure Solutions Architect Expert
 - 2022/03: Microsoft Certified: Azure Database Administrator Associate
 - 2021/06: Microsoft Certified: Azure Data Scientist Associate
