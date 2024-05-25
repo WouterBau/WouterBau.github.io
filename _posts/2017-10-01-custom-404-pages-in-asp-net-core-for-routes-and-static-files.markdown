@@ -6,6 +6,7 @@ description: Back in February I wrote a post about how to deliver 404 pages whil
 tags:
  - ASP.NET Core
  - C#
+ - .NET
 share: true
 ---
 Back in February I wrote a [post]({% link _posts/2017-02-18-the-absolute-proper-way-to-do-404-pages-in-asp-net-mvc.markdown %}) about how to deliver 404 pages while immediately dealing out the correct status message for ASP.NET applications. I gave a hint about ASP.NET Core and have improved my solution since. So, let’s call this post a follow-up in a trilogy of posts.

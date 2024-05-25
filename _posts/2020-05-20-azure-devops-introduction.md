@@ -5,6 +5,8 @@ date:   2020-05-20
 description: An introductionary overview of what Azure DevOps has to offer, with some examples
 tags:
  - Azure DevOps
+ - DevOps
+ - Azure
 share: true
 ---
 

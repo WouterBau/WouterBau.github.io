@@ -6,6 +6,7 @@ description: You can take away the meaning of reserved words to use them any way
 tags:
  - VB
  - C#
+ - .NET
 share: true
 ---
 I don’t advise to use this unless you really have to. When using .Net reserved words for other purposes, it can become confusing for you or your collaborators. So use this only when it’s necessary or if it might actually help. I’ve come across a good example of the second option while creating an enumeration.

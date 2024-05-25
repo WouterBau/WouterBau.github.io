@@ -6,6 +6,7 @@ description: You want to generate a file or serve a document other than HTML out
 tags:
  - ASP.NET
  - C#
+ - .NET
 share: true
 ---
 It’s not always HTML you’d want to serve to the visitor when they open an URL. In certain occasion the URL can be a link to a dynamically generated PDF file (like an receipt for an online order) or another file. To ensure the client opens or downloads this file correctly, you have to set the contenttype and headers for the response. Of course you need to stream the content to the response too.  When you get your content in a binary array, you can achieve your wish with these few lines.

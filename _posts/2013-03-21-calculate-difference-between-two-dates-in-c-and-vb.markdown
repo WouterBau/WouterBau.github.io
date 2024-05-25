@@ -6,6 +6,7 @@ description: Calculating the difference between dates couldn’t have been easie
 tags:
  - VB
  - C#
+ - .NET
 share: true
 ---
 In at least one of your projects, you’ll have to calculate the difference between the two dates. And if you enjoyed programming in C# or VB already, you’ll enjoy even more what tools they have provided to do so.

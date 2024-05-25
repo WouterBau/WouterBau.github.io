@@ -6,6 +6,7 @@ description: Let's see how we can bring flexibility, stability and control to ou
 tags:
  - Techorama
  - .NET
+ - Azure DevOps
  - DevOps
  - Docker
 share: true

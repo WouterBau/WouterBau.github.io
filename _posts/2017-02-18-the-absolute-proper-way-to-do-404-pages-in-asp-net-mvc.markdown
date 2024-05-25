@@ -7,6 +7,7 @@ tags:
  - ASP.NET MVC
  - ASP.NET Core
  - C#
+ - .NET
 share: true
 ---
 Websites and webservices should return the proper HTTP status codes as response to requests, along with the possible proper body. When you’re creating a ASP.Net MVC web application it can be a little tricky because of a configuration quirk I quite dislike and didn’t find much info about. They improved this practice immensely in ASP.Net Core web applications. So, I want to make this post to clear it up and get it all in one nice explanation and solution. This post is an improvement to my previous [post]({% link _posts/2013-11-11-404-pages-in-asp-net-websites.markdown %}) about 404 pages with classic aspx pages.

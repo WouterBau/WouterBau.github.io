@@ -6,6 +6,7 @@ description: Want a real world example of making Azure Logic Apps and existing a
 tags:
  - Azure
  - Logic Apps
+ - Techorama
 share: true
 ---
 
