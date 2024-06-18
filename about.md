@@ -11,6 +11,7 @@ I also enjoy watching horror movies and going to music concerts.
 
 # Certifications
 I've also achieved these [certifications](https://www.linkedin.com/in/wouter-bauchart-63a26519/details/certifications/){:target="_blank"}:
+- 2024/06: Microsoft Certified: Azure AI Engineer Associate
 - 2023/10: freeCodeCamp: Foundational C# with Microsoft
 - 2023/09: Microsoft Certified: Azure Cosmos DB Developer Specialty
 - 2023/02: Microsoft Certified: DevOps Engineer Expert
