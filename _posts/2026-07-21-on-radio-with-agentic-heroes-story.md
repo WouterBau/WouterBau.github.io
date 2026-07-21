@@ -6,8 +6,7 @@ description: "A look back at my Techorama 2026 session about 'What the Scrolls D
 tags:
  - Techorama
  - .NET
- - Microsoft.Extensions.AI
- - Microsoft Agent Framework
+ - AI
 share: true
 ---
 This time I wasn't captured randomly anywhere else like in my previous post.
